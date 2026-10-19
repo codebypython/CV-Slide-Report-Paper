@@ -1,0 +1,57 @@
+[
+    {
+        "sample_id": 1003,
+        "target_age": 189.0,
+        "pred_age": 0.1,
+        "abs_error": 188.9,
+        "sex": "Female",
+        "age_bracket": "Post-Puberty (>15y)",
+        "gradcam_tw3_ratio": 0.2135,
+        "attention_tw3_ratio": 0.2718,
+        "figure_path": "d:/Development/projects/dual_branch_bone_age/outputs\\figures\\explainability_case_1003.png"
+    },
+    {
+        "sample_id": 1004,
+        "target_age": 115.19999694824219,
+        "pred_age": 0.1,
+        "abs_error": 115.1,
+        "sex": "Female",
+        "age_bracket": "Childhood (2-10y)",
+        "gradcam_tw3_ratio": 0.1787,
+        "attention_tw3_ratio": 0.2718,
+        "figure_path": "d:/Development/projects/dual_branch_bone_age/outputs\\figures\\explainability_case_1004.png"
+    },
+    {
+        "sample_id": 1007,
+        "target_age": 157.1999969482422,
+        "pred_age": 0.1,
+        "abs_error": 157.1,
+        "sex": "Female",
+        "age_bracket": "Puberty (10-15y)",
+        "gradcam_tw3_ratio": 0.1848,
+        "attention_tw3_ratio": 0.2718,
+        "figure_path": "d:/Development/projects/dual_branch_bone_age/outputs\\figures\\explainability_case_1007.png"
+    },
+    {
+        "sample_id": 1009,
+        "target_age": 147.8000030517578,
+        "pred_age": 0.1,
+        "abs_error": 147.7,
+        "sex": "Female",
+        "age_bracket": "Puberty (10-15y)",
+        "gradcam_tw3_ratio": 0.1839,
+        "attention_tw3_ratio": 0.2718,
+        "figure_path": "d:/Development/projects/dual_branch_bone_age/outputs\\figures\\explainability_case_1009.png"
+    },
+    {
+        "sample_id": 1012,
+        "target_age": 135.1999969482422,
+        "pred_age": 0.1,
+        "abs_error": 135.1,
+        "sex": "Female",
+        "age_bracket": "Puberty (10-15y)",
+        "gradcam_tw3_ratio": 0.1865,
+        "attention_tw3_ratio": 0.2718,
+        "figure_path": "d:/Development/projects/dual_branch_bone_age/outputs\\figures\\explainability_case_1012.png"
+    }
+]

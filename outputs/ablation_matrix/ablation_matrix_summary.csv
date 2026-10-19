@@ -1,0 +1,7 @@
+Experiment,Architecture,Params (M),Overall MAE (mo),MAE 95% CI,RMSE (mo),R2,Puberty Spurt MAE (mo),Scientific Contribution
+Exp 0 (Baseline): Inception-v3 + Gender Concat,inception_baseline,22.33,93.48,"[81.06, 106.73]",99.0,-6.6919,115.91,Fair RSNA 2017 winning baseline replication on unified pipeline
+Exp 1: ConvNeXt-Small + Gender Concat,convnext_single,49.68,116.26,"[102.65, 130.90]",121.61,-10.6074,139.77,Modern CNN inductive bias isolating micro-morphological feature learning
+Exp 2: Swin-Small + Gender Concat,swint_single,49.06,113.37,"[99.74, 128.06]",118.87,-10.0902,136.93,Hierarchical Vision Transformer isolating macro-structural relation learning
+Exp 3: ConvNeXt + SwinT (Naive Concat/Add),naive_concat,98.71,110.69,"[97.07, 125.35]",116.31,-9.6177,134.23,Dual-branch combination without cross-modal interaction
+Exp 4: ConvNeXt + SwinT + Cross-Attention,cross_attention_only,100.29,116.89,"[103.28, 131.54]",122.22,-10.7231,140.41,Active cross-attention interaction between micro and macro features
+Exp 5 (Proposed): ConvNeXt + SwinT + Cross-Attention + FiLM,proposed_film_cross_attn,100.41,114.88,"[101.27, 129.60]",120.3,-10.3585,138.45,Full proposed architecture with clinical gender conditioning via FiLM
